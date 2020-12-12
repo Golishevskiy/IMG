@@ -9,11 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    лывалопыдтаып
+    
 
-    
-    
-    
-    yuguyg7yuguy
     override func viewDidLoad() {
         
         
