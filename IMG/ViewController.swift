@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-картинка
     
 
     override func viewDidLoad() {

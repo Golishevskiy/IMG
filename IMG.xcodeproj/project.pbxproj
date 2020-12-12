@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5260A9BC2584E49700DD255B /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260A9BB2584E49700DD255B /* CategoriesVC.swift */; };
+		5260A9BF2584E55100DD255B /* ImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260A9BE2584E55100DD255B /* ImagesVC.swift */; };
+		5260A9C22584E59A00DD255B /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260A9C12584E59A00DD255B /* FullScreen.swift */; };
 		AB0C5BF52584112200377B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C5BF42584112200377B0B /* AppDelegate.swift */; };
 		AB0C5BF72584112200377B0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C5BF62584112200377B0B /* SceneDelegate.swift */; };
-		AB0C5BF92584112200377B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C5BF82584112200377B0B /* ViewController.swift */; };
 		AB0C5BFC2584112200377B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0C5BFA2584112200377B0B /* Main.storyboard */; };
 		AB0C5BFE2584112300377B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0C5BFD2584112300377B0B /* Assets.xcassets */; };
 		AB0C5C012584112300377B0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0C5BFF2584112300377B0B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5260A9BB2584E49700DD255B /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		5260A9BE2584E55100DD255B /* ImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesVC.swift; sourceTree = "<group>"; };
+		5260A9C12584E59A00DD255B /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
 		AB0C5BF12584112200377B0B /* IMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0C5BF42584112200377B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB0C5BF62584112200377B0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB0C5BF82584112200377B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB0C5BFB2584112200377B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB0C5BFD2584112300377B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0C5C002584112300377B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +62,10 @@
 			children = (
 				AB0C5BF42584112200377B0B /* AppDelegate.swift */,
 				AB0C5BF62584112200377B0B /* SceneDelegate.swift */,
-				AB0C5BF82584112200377B0B /* ViewController.swift */,
 				AB0C5BFA2584112200377B0B /* Main.storyboard */,
+				5260A9C12584E59A00DD255B /* FullScreen.swift */,
+				5260A9BB2584E49700DD255B /* CategoriesVC.swift */,
+				5260A9BE2584E55100DD255B /* ImagesVC.swift */,
 				AB0C5BFD2584112300377B0B /* Assets.xcassets */,
 				AB0C5BFF2584112300377B0B /* LaunchScreen.storyboard */,
 				AB0C5C022584112300377B0B /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0C5BF92584112200377B0B /* ViewController.swift in Sources */,
+				5260A9C22584E59A00DD255B /* FullScreen.swift in Sources */,
+				5260A9BF2584E55100DD255B /* ImagesVC.swift in Sources */,
+				5260A9BC2584E49700DD255B /* CategoriesVC.swift in Sources */,
 				AB0C5BF52584112200377B0B /* AppDelegate.swift in Sources */,
 				AB0C5BF72584112200377B0B /* SceneDelegate.swift in Sources */,
 			);
